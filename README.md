@@ -129,7 +129,8 @@ Each API method can be executed asynchronously:
 ```java
 import api.longpoll.bots.LongPollBot;
 import api.longpoll.bots.exceptions.VkApiException;
-import api.longpoll.bots.methods.impl.messages.Send;import api.longpoll.bots.model.events.messages.MessageNew;
+import api.longpoll.bots.methods.impl.messages.Send;
+import api.longpoll.bots.model.events.messages.MessageNew;
 import api.longpoll.bots.model.objects.basic.Message;
 import java.io.File;import java.util.concurrent.CompletableFuture;
 
